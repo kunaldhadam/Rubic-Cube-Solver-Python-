@@ -21,6 +21,19 @@ class Prune(Rubic_Cube):
                 return True
             if last_move.__name__ in ["move_B","move_antiB"] and current_move.__name__ in ["move_F","move_antiF"]:
                 return True
+            
+            # if last_move.__name__ in ["move_antiU"] and current_move.__name__ in ["move_antiU"]:
+            #     return True
+            # if last_move.__name__ in ["move_antiD"] and current_move.__name__ in ["move_antiD"]:
+            #     return True
+            # if last_move.__name__ in ["move_antiF"] and current_move.__name__ in ["move_antiF"]:
+            #     return True
+            # if last_move.__name__ in ["move_antiB"] and current_move.__name__ in ["move_antiB"]:
+            #     return True
+            # if last_move.__name__ in ["move_antiL"] and current_move.__name__ in ["move_antiL"]:
+            #     return True
+            # if last_move.__name__ in ["move_antiR"] and current_move.__name__ in ["move_antiR"]:
+            #     return True
             return False
     #DONE!!
 
